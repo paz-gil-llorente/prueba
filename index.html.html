@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Maria Paz Gil - Portfolio</title>
+    <!--
+    <link rel="icon" type="image/png" href="../resources/Icon_purple.jpg" />
+    
+     CSS bootstrap 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     CSS scroll animation
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+     Iconos 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     Fuentes 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet&family=IM+Fell+English&family=Kelly+Slab&family=Mirza&family=Sarpanch:wght@500&display=swap&family=Roboto+Mono&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  CSS personalizado 
+    <link rel="stylesheet" href="./styles.css" />
+
+-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #6ba0c1;
+            /* #4b7995;**/
+            color: white
+        }
+
+        .barra {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            /* padding-top: 4rem;*/
+
+        }
+
+        .logo_nombre {
+            font-family: 'Sarpanch', sans-serif;
+            font-size: 5rem;
+            /*color: white;*/
+            /*background-color: #4b7995;*/
+            /****estoy aqui**/
+            text-decoration: none;
+            padding: 20px 0;
+            margin: 5% 0 0 5%;
+            width: 50%;
+            /*display: flex;
+            justify-content right;*/
+        }
+
+
+        .nav_container {
+            display: flex;
+            justify-content: right;
+            gap: 2rem;
+            margin-right: 10%;
+            font-size: 5rem;
+            color: blue;
+
+        }
+
+        .nav_container ul {
+            display: flex;
+            /* Hace que los elementos hijos se alineen en línea */
+            gap: 2rem;
+            /* Espaciado entre los elementos */
+            list-style: none;
+            /* Elimina los puntos de la lista */
+            /* font-size: 300rem;*/
+
+
+        }
+
+
+
+        .nav_container li {
+            text-align: center;
+            /* Centra el texto dentro de cada elemento */
+            display: inline;
+            /* margin-top: 5%;*/
+            /*width: fit-content;*/
+            /*****aqui estoy**/
+            width: 200px;
+            /*gap: 1 rem;*/
+            flex: 1;
+            /* text-align: right;
+            /*justify-content: center;*/
+            /* Asegura que los elementos sean en línea */
+            /* font-size: 45rem;*/
+
+        }
+
+
+
+
+
+        .nav_container a {
+            /***es el del menu**/
+            color: blue;
+
+            /* Color del texto */
+            text-decoration: none;
+            /* Elimina el subrayado */
+            font-size: 1.5rem;
+            /* Tamaño de fuente */
+            width: 80%;
+        }
+
+
+        .nav_container ul {
+            display: flex;
+            /* Hace que los elementos hijos se alineen en línea */
+            gap: 2rem;
+            /* Espaciado entre los elementos */
+            align-items: center;
+            list-style: none;
+            /* Elimina los puntos de la lista */
+            padding: 0;
+            /* Elimina el padding por defecto */
+            margin: 0;
+            /* Elimina el margen por defecto */
+
+        }
+
+
+
+
+
+        .header {
+            /* background-image: url(../img/banner.webp);*/
+            background-size: cover;
+            /*cubre toda la pagina aunque se haga zoom */
+            height: 60rem;
+            background-repeat: no repeat;
+            background-color: #6ba0c1;
+            /*me cubre todo el header porque es lo unico que hay declarado*/
+            /* color: white;*/
+
+            /*no repite la imagen
+            background-position: center center;
+          }*/
+        }
+
+        .header_texto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 10%;
+            font-size: 1.5rem;
+            /*color: white;*/
+            padding: 0 5%;
+        }
+
+        /*
+        .nav-link {
+            color: #fff !important;
+            font-size: 18px;
+            text-decoration: none;
+        }*/
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="barra">
+            <a class="logo" href="../index.html">
+
+                <h1 class="logo_nombre"> Maria Paz Gil</h1>
+                <img src="" alt="Foto de Maria Paz Gil" class="logo_img">
+            </a>
+
+            <div class="nav_container">
+                <nav>
+                    <ul class="nav_container ul">
+                        <li class="nav_container li">
+                            <a class="nav_container a" href="../index.html">Inicio</a>
+                            <!--*mirar**-->
+                        </li>
+                        <li class="nav_container li">
+                            <a class="nav_container a" href="../about.html">Sobre mí</a>
+                        </li>
+                        <li class="nav_container li">
+                            <a class="nav_container a" href="../projects.html">Proyectos</a>
+                        </li>
+                        <li class="nav_container li">
+                            <a class="nav_container a" href="../contact.html">Contacto</a>
+                        </li>
+                    </ul>
+
+
+                </nav>
+            </div>
+        </div>
+        <div class="header_texto">
+
+            <h2> Titulada en informática con conocimientos en frontend y backend. Me apasiona aprender nuevas
+                tecnologías
+                y mejorar mis habilidades. Busco
+                oportunidades para crecer profesionalmente y contribuir a proyectos innovadores.</h2>
+            </h2>
+        </div>
+    </header>
+
+    <footer>
+
+
+    </footer>
+</body>
